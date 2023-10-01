@@ -1,0 +1,51 @@
+
+   .home-page {
+    background-image: url('background.png');
+    /* background-color: rgb(14, 14, 14); */
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .conta {
+    text-align: center; 
+    background-color: white;
+    padding: 20px 20px;
+    border-radius: 2.25rem;
+    width: 32rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+
+  }
+  .h1{
+    font-size: 20px;
+  }
+  .btn1,.btn2 {
+    color: #fff;
+    border: none;
+    border-radius: 2.25rem;
+    padding: 10px 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 28px;
+  } 
+  .btn1{
+    background-color: #1CE0E0;
+  }
+  .btn2{
+    background-color: #00FFB3;;
+  }
+  .btn{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  .button:hover {
+    background-color: rgba(2, 89, 6, 0.68);
+  }
+  
